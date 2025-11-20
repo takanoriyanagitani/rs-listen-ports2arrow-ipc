@@ -3,6 +3,17 @@ name = "rs-listen-ports2arrow-ipc"
 version = "0.1.0"
 edition = "2024"
 
+description = "Shows the ports info as an arrow ipc stream."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-listen-ports2arrow-ipc"
+homepage = "https://github.com/takanoriyanagitani/rs-listen-ports2arrow-ipc"
+documentation = "https://docs.rs/rs-listen-ports2arrow-ipc/latest"
+keywords = ["arrow", "ipc", "stream", "listen", "port"]
+
+exclude = [
+	"listen-ports2arrow-ipc",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
