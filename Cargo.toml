@@ -1,0 +1,28 @@
+[package]
+name = "rs-listen-ports2arrow-ipc"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+
+[[bin]]
+name = "listen-ports2arrow-ipc"
+
+[dependencies.listeners]
+version = "0.3"
+default-features = false
+features = [
+]
+
+[dependencies.arrow]
+version = "57"
+default-features = false
+features = [
+	"ipc",
+]
